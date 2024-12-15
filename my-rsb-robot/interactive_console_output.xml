@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.8 on win32)" generated="20241214 19:11:05.729" rpa="false" schemaversion="4">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\tsipi\.vscode\extensions\robocorp.robotframework-lsp-1.13.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Hello World</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20241214 19:11:55.404" endtime="20241214 19:11:55.405"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20241214 19:17:43.447" endtime="20241214 19:18:11.203"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20241214 19:22:35.233" endtime="20241214 19:22:57.000"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20241214 19:40:26.308" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=131.0.6778.140)
+Stacktrace:
+	GetHandleVerifier [0x004034A3+25059]
+	(No symbol) [0x0038CEA4]
+	(No symbol) [0x0026BEC3]
+	(No symbol) [0x0024D93B]
+	(No symbol) [0x002D800F]
+	(No symbol) [0x002EAE49]
+	(No symbol) [0x002D1C96]
+	(No symbol) [0x002A3FAC]
+	(No symbol) [0x002A4F3D]
+	GetHandleVerifier [0x006F5613+3113811]
+	GetHandleVerifier [0x0070A2DA+3199002]
+	GetHandleVerifier [0x00702AB2+3168242]
+	GetHandleVerifier [0x004A3310+680016]
+	(No symbol) [0x003957ED]
+	(No symbol) [0x00392A98]
+	(No symbol) [0x00392C35]
+	(No symbol) [0x00385890]
+	BaseThreadInitThunk [0x767C7BA9+25]
+	RtlInitializeExceptionChain [0x77B1C0CB+107]
+	RtlClearBits [0x77B1C04F+191]
+</msg>
+<status status="FAIL" starttime="20241214 19:40:26.299" endtime="20241214 19:40:26.315"/>
+</kw>
+<kw name="Open Available Browser" library="RPA.Browser.Selenium">
+<arg>https://robotsparebinindustries.com/</arg>
+<doc>Attempts to open a browser on the user's device from a set of
+supported browsers. Automatically downloads a corresponding webdriver
+if none is already installed.</doc>
+<status status="PASS" starttime="20241214 19:40:42.675" endtime="20241214 19:41:02.832"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>username</arg>
+<arg>maria</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20241214 19:42:01.251" endtime="20241214 19:42:01.381"/>
+</kw>
+<kw name="Input Password" library="RPA.Browser.Selenium">
+<arg>password</arg>
+<arg>thoushallnotpass</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20241214 19:43:46.300" endtime="20241214 19:43:46.443"/>
+</kw>
+<kw name="Submit Form" library="RPA.Browser.Selenium">
+<doc>Submits a form identified by ``locator``.</doc>
+<status status="PASS" starttime="20241214 19:44:36.006" endtime="20241214 19:44:36.038"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser.Selenium">
+<arg>Submit</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" starttime="20241214 20:17:05.827" endtime="20241214 20:17:05.946"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>firstname</arg>
+<arg>John</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20241214 20:24:17.251" endtime="20241214 20:24:17.397"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>lastname</arg>
+<arg>Smith</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20241214 20:24:30.849" endtime="20241214 20:24:31.000"/>
+</kw>
+<kw name="Input Text salesresult">
+<arg>123</arg>
+<msg timestamp="20241214 20:24:38.635" level="FAIL">No keyword with name 'Input Text salesresult' found. Did you try using keyword 'RPA.Browser.Selenium.Input Text' and forgot to use enough whitespace between keyword and arguments?</msg>
+<status status="FAIL" starttime="20241214 20:24:38.635" endtime="20241214 20:24:38.635"/>
+</kw>
+<kw name="Input Text" library="RPA.Browser.Selenium">
+<arg>salesresult</arg>
+<arg>123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" starttime="20241214 20:24:48.794" endtime="20241214 20:24:48.941"/>
+</kw>
+<kw name="Click Button" library="RPA.Browser.Selenium">
+<arg>Submit</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" starttime="20241214 20:24:56.081" endtime="20241214 20:24:57.272"/>
+</kw>
+<kw name="Select From List By Value" library="RPA.Browser.Selenium">
+<arg>salestarget</arg>
+<arg>10000</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" starttime="20241214 20:34:41.664" endtime="20241214 20:34:41.765"/>
+</kw>
+<kw name="Select From List By Value" library="RPA.Browser.Selenium">
+<arg>salestarget</arg>
+<arg>55000</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" starttime="20241214 20:34:57.831" endtime="20241214 20:34:57.908"/>
+</kw>
+<kw name="Select From List By Value" library="RPA.Browser.Selenium">
+<arg>salestarget</arg>
+<arg>10000</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<status status="PASS" starttime="20241214 20:35:07.448" endtime="20241214 20:35:07.518"/>
+</kw>
+<status status="PASS" starttime="20241214 19:11:05.821" endtime="20241214 20:39:16.624"/>
+</kw>
+<status status="PASS" starttime="20241214 19:11:05.820" endtime="20241214 20:39:16.624"/>
+</test>
+<status status="PASS" starttime="20241214 19:11:05.745" endtime="20241214 20:39:16.628"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
